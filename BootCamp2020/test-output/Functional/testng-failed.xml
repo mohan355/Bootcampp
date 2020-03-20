@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional]">
+  <test thread-count="5" name="Testing(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.homedepot.com/"/>
+    <classes>
+      <class name="HemoDepot.com.BootCamp2020.TestNG">
+        <methods>
+          <include name="g"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- HemoDepot.com.BootCamp2020.TestNG -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [Functional] -->
